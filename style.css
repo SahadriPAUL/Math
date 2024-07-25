@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+#login-section, #quiz-section {
+    margin-bottom: 20px;
+}
+
+#question {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#answer {
+    width: 100px;
+    margin: 10px;
+}
+
+#result {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#score {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
